@@ -1,0 +1,38 @@
+ #include <iostream>
+ #include <cstring>
+ using namespace std;
+  
+ class Book
+{
+private :
+  	string a,b,c;
+    int q,w;
+    
+public:  
+ void set()
+ {
+    cout<<"Avtor ";
+    cin>>a;
+    cout<<"Nasvanie ";
+    cin>>b;
+    cout<<"Janr ";
+    cin>>c;
+    cout<<"God ";
+    cin>>q;
+    cout<<"Cena ";
+    cin>>w;
+ }
+ void show()
+ {
+     cout<<" "<<a<<" "<<b<<" "<<c<<" "<<q<<" "<<w;
+   
+ }
+};
+  
+  
+ int main()
+ {
+     Book n1;
+     n1.set();
+     n1.show();
+ }
